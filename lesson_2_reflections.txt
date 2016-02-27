@@ -14,6 +14,11 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	You can do many logical changes in your working directory, but then only
+	stage one logical change at a time. And also, with "git diff --staged", you
+	can see the changes that you are about to commit, so you can verify if they
+	correspond to only one logical change.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
