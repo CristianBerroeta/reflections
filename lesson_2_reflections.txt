@@ -36,5 +36,9 @@ the diagram the way we do?
 	branchs	tips. Also, the tip of the current branch is changed to be that new
 	commit.
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+	It saves time, but I think that it could lead to inconsistent code, for
+	example if person X deletes function A, and person Y adds code that uses
+	function A.
