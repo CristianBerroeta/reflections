@@ -29,7 +29,10 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    It allows to open its files' versions locally, without needing internet
+    access, and probably with a better editor than the online one. It also allows
+    to compare the fetched branches with the local ones, by running Git commands
+    like Git diff.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
