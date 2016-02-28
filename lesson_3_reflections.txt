@@ -6,9 +6,12 @@ local?
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Because any user could upload malicious or wrong code to GitHub, that you
-    don't want in your repository. Also, because when collaborating, some
-    branches pushed to GitHub by other users might not be of your interest.
+    - Because you could be working on your local repository, so an automatic
+    pull would have to erase your progress, or let you save your it some way,
+    which probably would be confusing.
+    
+    - Because some branches pushed to GitHub by other users might not be of your
+    interest.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
