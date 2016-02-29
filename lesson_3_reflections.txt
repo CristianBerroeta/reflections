@@ -48,4 +48,7 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When you want your changes to be notified, visualized, commented or improved
+    more easily by other users, before adding them to the master branch. So the
+    master branch is more likely to be out of bugs. The downside is that it takes
+    longer to make changes to the master and it's a more convoluted process.
